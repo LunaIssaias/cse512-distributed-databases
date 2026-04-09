@@ -1,26 +1,24 @@
-# CSE 512 - Distributed Database Systems
+# Distributed Database Systems
 
-**Arizona State University | Fall 2025**
-**Author: Luna Sbahtu**
+**Arizona State University | Luna Sbahtu**
 
-## Course Overview
-Covers distributed database architectures, SQL/NoSQL systems, replication, transactions, and graph databases.
+A collection of projects covering distributed database architectures, relational and NoSQL systems, graph databases, big data processing, and full-text search engines.
 
 ---
 
-## Assignments & Homework
+## Projects
 
-| Folder | Topic | Tech |
-|--------|-------|------|
-| [hw1-erd](./hw1-erd/) | Entity Relationship Diagram & Schema | SQL |
-| [hw2-sql-queries](./hw2-sql-queries/) | Relational SQL Queries | PostgreSQL |
-| [hw4-mongodb-replication](./hw4-mongodb-replication/) | MongoDB Replication Demo | MongoDB / JavaScript |
-| [hw5-transactions](./hw5-transactions/) | Database Transactions & ACID | SQL |
-| [hw7-cockroachdb](./hw7-cockroachdb/) | Distributed SQL with CockroachDB | CockroachDB |
-| [hw8-hadoop-mapreduce](./hw8-hadoop-mapreduce/) | MapReduce Word Count | Hadoop / Python |
-| [hw9-neo4j](./hw9-neo4j/) | Graph Database Queries | Neo4j / Cypher |
-| [assignment2-elasticsearch](./assignment2-elasticsearch/) | Full-Text Search & Analytics | Elasticsearch / Python |
-| [assignment3-neo4j-cypher](./assignment3-neo4j-cypher/) | Advanced Cypher Queries | Neo4j / Cypher |
+| Project | Description | Tech |
+|---------|-------------|------|
+| [University Schema](./university-schema/) | Relational schema design with full ERD implementation | PostgreSQL |
+| [SQL Analytics](./sql-analytics/) | Advanced SQL queries, joins, aggregations, and reporting | PostgreSQL |
+| [MongoDB Replication](./mongodb-replication/) | Distributed replication with write/read concern configurations | MongoDB |
+| [Transaction Management](./transaction-management/) | ACID transactions, isolation levels, savepoints, and deadlock prevention | PostgreSQL |
+| [CockroachDB Distributed SQL](./cockroachdb-distributed-sql/) | Distributed SQL with geo-partitioning on a multi-node cluster | CockroachDB |
+| [Hadoop MapReduce](./hadoop-mapreduce/) | Large-scale parallel data processing with MapReduce | Hadoop / Python |
+| [Neo4j Graph Database](./neo4j-graph-database/) | Graph modeling, traversal, and shortest path queries | Neo4j / Cypher |
+| [Elasticsearch Search Engine](./elasticsearch-search-engine/) | Full-text search, keyword filtering, and analytics on product reviews | Elasticsearch / Python |
+| [Neo4j Advanced Queries](./neo4j-advanced-queries/) | Pattern comprehension, variable-length paths, and graph recommendations | Neo4j / Cypher |
 
 ---
 
